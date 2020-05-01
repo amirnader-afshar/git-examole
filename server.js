@@ -1,11 +1,12 @@
 const exprees =require('express');
 
 const app = exprees();
+const port = 3000;
 
 app.get('/',(req,res)=>{
     res.send('hi donya');
 });
-app.listen(3000,()=>{
-    Console.log('server is running');
+app.listen(port,()=>{
+    Console.log(`server is running on port ${port}`);
 
 });
