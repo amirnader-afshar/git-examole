@@ -1,7 +1,7 @@
 const exprees =require('express');
 
 const app = exprees();
-const port = 3000;
+const port = 5000;
 
 app.get('/',(req,res)=>{
     res.send('hi donya');
